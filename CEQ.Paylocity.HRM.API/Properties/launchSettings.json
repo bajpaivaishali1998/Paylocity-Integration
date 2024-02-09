@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CEQ.Paylocity.HRM.API": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7088",
+      "launchBrowser": false
+    }
+  }
+}

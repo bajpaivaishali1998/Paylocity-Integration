@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEQ.Paylocity.HRM.API", "CEQ.Paylocity.HRM.API\CEQ.Paylocity.HRM.API.csproj", "{FDD0B0E6-01D6-49CF-AD10-DF6F14A24523}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD0B0E6-01D6-49CF-AD10-DF6F14A24523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD0B0E6-01D6-49CF-AD10-DF6F14A24523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD0B0E6-01D6-49CF-AD10-DF6F14A24523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD0B0E6-01D6-49CF-AD10-DF6F14A24523}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C19E1C59-3B99-4453-AA07-09C29547F48F}
+	EndGlobalSection
+EndGlobal
