@@ -31,33 +31,34 @@ namespace CEQ.Paylocity.HRM.API
             Payload deserializedPayload = JsonConvert.DeserializeObject<Payload>(requestBody);
 
             Employee objUserInfo = new Employee();
-            objUserInfo.employeeFirstName = deserializedPayload.employeeFirstName;
-            objUserInfo.employeeLastName = deserializedPayload.employeeLastName;
-            objUserInfo.companyName = deserializedPayload.companyName;
-            objUserInfo.companyId = deserializedPayload.companyId;
-            objUserInfo.employeeAddressLine1 = deserializedPayload.employeeAddressLine1;
-            objUserInfo.employeeAddressLine2 = deserializedPayload.employeeAddressLine2;
-            objUserInfo.employeeGender = deserializedPayload.employeeGender;
-            objUserInfo.employeeJobTitle = deserializedPayload.employeeJobTitle;
-            objUserInfo.employeePosition = deserializedPayload.employeePosition;
-            objUserInfo.employeeWorkEMailAddress = deserializedPayload.employeeWorkEMailAddress;
-            objUserInfo.employeePayFrequency = deserializedPayload.employeePayFrequency;
-            objUserInfo.employeeWorkPhone = deserializedPayload.employeeWorkPhone;
-            objUserInfo.employeePayType = deserializedPayload.employeePayType;
-            objUserInfo.employeeCity = deserializedPayload.employeeCity;
-            objUserInfo.employeeCostCenter1 = deserializedPayload.employeeCostCenter1;
-            objUserInfo.employeeCostCenter2 = deserializedPayload.employeeCostCenter2;
-            objUserInfo.employeeCostCenter3 = deserializedPayload.employeeCostCenter3;
-            objUserInfo.employeeHireDate = deserializedPayload.employeeHireDate;
-            objUserInfo.employeeBadgeClockNumber = deserializedPayload.employeeBadgeClockNumber;
-            objUserInfo.employeeEEOClass = deserializedPayload.employeeEEOClass;
-            objUserInfo.employeeMaritalStatus = deserializedPayload.employeeMaritalStatus;
-            objUserInfo.employeeMiddleInitial = deserializedPayload.employeeMiddleInitial;
-            objUserInfo.employeeState = deserializedPayload.employeeState;
-            objUserInfo.employeeSupervisor = deserializedPayload.employeeSupervisor;
-            objUserInfo.employeeSupervisorId = deserializedPayload.employeeSupervisorId;
-            objUserInfo.employeeTaxForm = deserializedPayload.employeeTaxForm;
-            objUserInfo.employeeZip = deserializedPayload.employeeZip;
+            objUserInfo.FirstName = deserializedPayload.employeeFirstName;
+            objUserInfo.LastName = deserializedPayload.employeeLastName;
+            objUserInfo.CompanyName = deserializedPayload.companyName;
+            objUserInfo.CompanyId = deserializedPayload.companyId;
+            objUserInfo.AddressLine1 = deserializedPayload.employeeAddressLine1;
+            objUserInfo.AddressLine2 = deserializedPayload.employeeAddressLine2;
+            objUserInfo.Gender = deserializedPayload.employeeGender;
+            objUserInfo.JobTitle = deserializedPayload.employeeJobTitle;
+            objUserInfo.Position = deserializedPayload.employeePosition;
+            objUserInfo.WorkEMailAddress = deserializedPayload.employeeWorkEMailAddress;
+            objUserInfo.PayFrequency = deserializedPayload.employeePayFrequency;
+            objUserInfo.WorkPhone = deserializedPayload.employeeWorkPhone;
+            objUserInfo.PayType = deserializedPayload.employeePayType;
+            objUserInfo.City = deserializedPayload.employeeCity;
+            objUserInfo.CostCenter1 = deserializedPayload.employeeCostCenter1;
+            objUserInfo.CostCenter2 = deserializedPayload.employeeCostCenter2;
+            objUserInfo.CostCenter3 = deserializedPayload.employeeCostCenter3;
+            objUserInfo.HireDate = deserializedPayload.employeeHireDate;
+            objUserInfo.BadgeClockNumber = deserializedPayload.employeeBadgeClockNumber;
+            objUserInfo.EEOClass = deserializedPayload.employeeEEOClass;
+            objUserInfo.MaritalStatus = deserializedPayload.employeeMaritalStatus;
+            objUserInfo.MiddleInitial = deserializedPayload.employeeMiddleInitial;
+            objUserInfo.State = deserializedPayload.employeeState;
+            objUserInfo.Supervisor = deserializedPayload.employeeSupervisor;
+            objUserInfo.SupervisorId = deserializedPayload.employeeSupervisorId;
+            objUserInfo.TaxForm = deserializedPayload.employeeTaxForm;
+            objUserInfo.Zip = deserializedPayload.employeeZip;
+
 
 
 
