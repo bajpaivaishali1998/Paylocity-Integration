@@ -46,65 +46,74 @@ namespace CEQ.Paylocity.HRM.API.Models
     public class Employee
     {
 
-        public string companyId { get; set; }
+        public string CompanyId { get; set; }
 
-        public string companyName { get; set; }
+        public string CompanyName { get; set; }
 
-        public string employeeAddressLine1 { get; set; }
+        public string AddressLine1 { get; set; }
 
-        public string employeeAddressLine2 { get; set; }
+        public string AddressLine2 { get; set; }
 
-        public string employeeBadgeClockNumber { get; set; }
+        public string BadgeClockNumber { get; set; }
 
-        public string employeeCity { get; set; }
+        public string City { get; set; }
 
-        public string employeeCostCenter1 { get; set; }
+        public string CostCenter1 { get; set; }
 
-        public string employeeCostCenter2 { get; set; }
+        public string CostCenter2 { get; set; }
 
-        public string employeeCostCenter3 { get; set; }
+        public string CostCenter3 { get; set; }
 
-        public string employeeEEOClass { get; set; }
+        public string EEOClass { get; set; }
 
-        public string employeeFirstName { get; set; }
+        public string FirstName { get; set; }
 
-        public string employeeGender { get; set; }
+        public string Gender { get; set; }
 
-        public DateTime employeeHireDate { get; set; }
+        public DateTime HireDate { get; set; }
 
-        public int employeeId { get; set; }
+        public int EmployeeId { get; set; }
 
-        public string employeeJobTitle { get; set; }
+        public string JobTitle { get; set; }
 
-        public string employeeLastName { get; set; }
+        public string LastName { get; set; }
 
-        public string employeeMaritalStatus { get; set; }
+        public string MaritalStatus { get; set; }
 
-        public string employeeMiddleInitial { get; set; }
+        public string MiddleInitial { get; set; }
 
-        public string employeePayFrequency { get; set; }
+        public string PayFrequency { get; set; }
 
-        public string employeePayType { get; set; }
+        public string PayType { get; set; }
 
-        public string employeePosition { get; set; }
+        public string Position { get; set; }
 
-        public string employeeState { get; set; }
+        public string State { get; set; }
 
-        public string employeeSupervisor { get; set; }
+        public string Supervisor { get; set; }
 
-        public string employeeSupervisorId { get; set; }
+        public string SupervisorId { get; set; }
 
-        public string employeeType { get; set; }
+        public string EmployeeType { get; set; }
 
-        public string employeeWorkEMailAddress { get; set; }
+        public string WorkEMailAddress { get; set; }
 
-        public string employeeWorkPhone { get; set; }
+        public string WorkPhone { get; set; }
 
-        public string employeeZip { get; set; }
+        public string Zip { get; set; }
 
-        public string employeeTaxForm { get; set; }
+        public string TaxForm { get; set; }
 
     }
+    public class AadGroupMember
+    {
+        public string ObjectId { get; set; }
+        public string Name { get; set; }
+        public string UserPrincipalName { get; set; }
+        public string Email { get; set; } //UserPrincipalName
+        public string OtherEmail { get; set; } //UserPrincipalName
+    }
+
 
 
 }
