@@ -46,61 +46,33 @@ namespace CEQ.Paylocity.HRM.API.Models
     public class Employee
     {
         public string CompanyId { get; set; }
-
         public string CompanyName { get; set; }
-
         public string AddressLine1 { get; set; }
-
         public string AddressLine2 { get; set; }
-
         public string BadgeClockNumber { get; set; }
-
         public string City { get; set; }
-
         public string CostCenter1 { get; set; }
-
         public string CostCenter2 { get; set; }
-
         public string CostCenter3 { get; set; }
-
         public string EEOClass { get; set; }
-
         public string FirstName { get; set; }
-
         public string Gender { get; set; }
-
         public DateTime HireDate { get; set; }
-
         public int EmployeeId { get; set; }
-
         public string JobTitle { get; set; }
-
         public string LastName { get; set; }
-
         public string MaritalStatus { get; set; }
-
         public string MiddleInitial { get; set; }
-
         public string PayFrequency { get; set; }
-
         public string PayType { get; set; }
-
         public string Position { get; set; }
-
         public string State { get; set; }
-
         public string Supervisor { get; set; }
-
         public string SupervisorId { get; set; }
-
         public string EmployeeType { get; set; }
-
         public string WorkEMailAddress { get; set; }
-
         public string WorkPhone { get; set; }
-
         public string Zip { get; set; }
-
         public string TaxForm { get; set; }
     }
     
