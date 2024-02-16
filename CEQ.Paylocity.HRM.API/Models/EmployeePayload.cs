@@ -29,12 +29,12 @@ namespace CEQ.Paylocity.HRM.API.Models
     //    public DateTime DateOfJoining { get; set; }
     //}
 
-    public class EmployeePayload
-    {
-        public string Source { get; set; }
-        public string Event { get; set; }
-        public List<Payload> Payload { get; set; }
-    }
+    //public class EmployeePayload
+    //{
+    //    public string Source { get; set; }
+    //    public string Event { get; set; }
+    //    public List<Payload> Payload { get; set; }
+    //}
     public class Payload
     {
 
