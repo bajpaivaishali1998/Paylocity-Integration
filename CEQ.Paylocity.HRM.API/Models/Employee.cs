@@ -45,7 +45,6 @@ namespace CEQ.Paylocity.HRM.API.Models
     //}
     public class Employee
     {
-
         public string CompanyId { get; set; }
 
         public string CompanyName { get; set; }
@@ -103,17 +102,15 @@ namespace CEQ.Paylocity.HRM.API.Models
         public string Zip { get; set; }
 
         public string TaxForm { get; set; }
-
     }
+    
     public class AadGroupMember
     {
-        public string ObjectId { get; set; }
-        public string Name { get; set; }
-        public string UserPrincipalName { get; set; }
-        public string Email { get; set; } //UserPrincipalName
-        public string OtherEmail { get; set; } //UserPrincipalName
+        public string? ObjectId { get; set; }
+        public string? Name { get; set; }
+        public string? UserPrincipalName { get; set; }
+        public string? Email { get; set; } //UserPrincipalName
+        public string? OtherEmail { get; set; } //UserPrincipalName
     }
-
-
 
 }

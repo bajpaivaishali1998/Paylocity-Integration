@@ -109,7 +109,11 @@ namespace CEQ.Paylocity.HRM.API
 
                 if (getAllUserList.Count == 0)
                 {
+<<<<<<< HEAD
                     //--------------------Getting users from Azure AD based on Display Name and creating new company email------------------------------------//
+=======
+                    //Getting users from Azure AD based on Display Name and creating new company email                      
+>>>>>>> 25628e425a2fcccf9fe03ca08683b2a0e9312de2
 
                     List<AadGroupMember> userList = new List<AadGroupMember>();
 
