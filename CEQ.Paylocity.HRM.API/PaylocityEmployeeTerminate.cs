@@ -93,7 +93,7 @@ namespace CEQ.Paylocity.HRM.API
             }
 
 
-
+            Console.WriteLine("");
 
             return new OkObjectResult("Welcome to Azure Functions!");
         }
