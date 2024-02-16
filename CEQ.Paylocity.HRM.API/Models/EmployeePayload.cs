@@ -35,11 +35,7 @@ namespace CEQ.Paylocity.HRM.API.Models
     //    public string Event { get; set; }
     //    public List<Payload> Payload { get; set; }
     //}
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 25628e425a2fcccf9fe03ca08683b2a0e9312de2
     public class Payload
     {
         public string companyId { get; set; }
